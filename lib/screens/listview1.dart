@@ -1,3 +1,4 @@
+import 'package:fl_components/themes/app_theme.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -19,7 +20,7 @@ class HomeScreen extends StatelessWidget {
           return ListTile(
             leading: const Icon(Icons.check),
             title: Text(e),
-            trailing: const Icon(Icons.arrow_forward),
+            trailing: const Icon(Icons.arrow_forward,color: AppTheme.primary,),
           );
         }).toList(),
         /**
