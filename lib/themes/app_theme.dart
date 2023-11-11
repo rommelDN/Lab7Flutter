@@ -6,7 +6,13 @@ class AppTheme{
   static final ThemeData odenfisTheme = ThemeData(
     primaryColor: primary,
     appBarTheme: const AppBarTheme(
-      color: primary)
+      color: primary
+      ),
+    textButtonTheme: TextButtonThemeData(
+      style: TextButton.styleFrom(
+        foregroundColor: Colors.red
+        )
+      )
   );
 
   static final ThemeData odenfisDark = ThemeData.dark().copyWith(

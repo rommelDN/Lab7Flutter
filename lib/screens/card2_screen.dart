@@ -1,11 +1,10 @@
-
 import 'package:fl_components/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 
 
-class CardScreen extends StatelessWidget {
+class CardScreen2 extends StatelessWidget {
    
-  const CardScreen({Key? key}) : super(key: key);
+  const CardScreen2({Key? key}) : super(key: key);
   
   @override
   Widget build(BuildContext context) {
@@ -15,13 +14,11 @@ class CardScreen extends StatelessWidget {
       ),
       body: ListView(
         children: const[
-          CardWidget() ,
-          CardWidget() ,
-          CardImageWidget() ,
-          CardWidget() ,
+          CardWidget2() ,
+          CardWidget3() ,
+          CardWidget4() ,
         ],
       )
     );
   }
 }
-

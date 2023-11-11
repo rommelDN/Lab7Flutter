@@ -12,6 +12,7 @@ class AppRoutes{
     MenuOption(route: 'listview2', icon: Icons.check, nombre: 'ListView2', screen: const ListView2Screen()),
     MenuOption(route: 'listview3', icon: Icons.check, nombre: 'ListView3', screen: const MyStatefulWidget()),
     MenuOption(route: 'card', icon: Icons.check, nombre: 'Card Sreen', screen: const CardScreen()),
+    MenuOption(route: 'card 2', icon: Icons.check, nombre: 'Card Sreen 2', screen: const CardScreen2()),
     MenuOption(route: 'alert', icon: Icons.check, nombre: 'Alert Screen', screen: const AlertScreen()),
     MenuOption(route: 'popup', icon: Icons.check, nombre: 'PopUpView', screen: const PopUpScreen()),
     MenuOption(route: 'avatarscreen', icon: Icons.check, nombre: 'Avatar Screen', screen: const AvatarScreen()),
