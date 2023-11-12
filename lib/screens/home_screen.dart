@@ -7,11 +7,14 @@ class HomeScreen3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      
       appBar: AppBar(
         title: const Text('Componentes de Flutter'),
+        
       ),
       body: ListView.builder(
         itemCount: AppRoutes.menuOption.length,
+        
         itemBuilder: (context, index) {
           final menuOption = AppRoutes.menuOption[index];
           return ListTile(

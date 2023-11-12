@@ -1,3 +1,5 @@
+export 'package:fl_components/screens/card3_screenlab10.dart';
+
 export 'package:fl_components/screens/card2_screen.dart';
 
 export 'package:fl_components/screens/avatar_screen.dart';

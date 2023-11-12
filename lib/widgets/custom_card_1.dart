@@ -17,8 +17,8 @@ class CardWidget extends StatelessWidget {
           child: Column(
            children: [
               const ListTile(
-                leading: Icon(Icons.anchor),
-                title: Text("Soy un Item dentro de una Card"),
+                leading: Icon(Icons.tv_sharp,color: Colors.blue,size: 40,),
+                title: Text("Informacion de las peliculas"),
                 subtitle: Text("Este es un subtitulo"),
               ),
               Padding(
@@ -29,12 +29,12 @@ class CardWidget extends StatelessWidget {
                     TextButton(
                       onPressed: (){},
                       
-                      child: const Text("Cancelar"),
+                      child: const Text("Aceptar"),
                       ),
                     TextButton(
                       
                       onPressed: (){}, 
-                      child: const Text("OK")
+                      child: const Text("Cancelar")
                       ),
                   ],
                 ),
